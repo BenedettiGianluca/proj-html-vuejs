@@ -96,6 +96,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          margin: 0 7px;
   
           .fa-droplet, .fa-stethoscope, .fa-graduation-cap, .fa-pagelines {
             color: $Goldenrod;
@@ -109,6 +110,7 @@
 
           p {
             color: $FrenchGray;
+            font-size: 13px;
             line-height: 28px;
             margin-bottom: 25px;
           }
