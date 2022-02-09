@@ -1,6 +1,17 @@
 <template>
   <header>
-
+    <nav>
+      <div>
+        <img :src="require(`@/assets/project_images/${img}`)">
+      </div>
+      <div>
+        <li>{{li1}}</li>
+        <li>{{li2}}</li>
+        <li>{{li3}}</li>
+        <li>{{li4}}</li>
+        <button type="button">{{button}}</button>
+      </div>
+    </nav>
     <section>
       <h1>MAKE A DIFFERENCE</h1>
       <p>As long as poverty, injustice & inequality persist, none of us can truly rest</p>
@@ -14,7 +25,15 @@
 
 <script>
   export default {
-    name: 'Header'
+    name: 'Header',
+    props: {
+      img: String,
+      li1: String,
+      li2: String,
+      li3: String,
+      li4: String,
+      button: String
+    }
   }
 </script>
 
@@ -27,6 +46,37 @@
     background-position: center;
     height: 105vh;
   
+    nav {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 88vw;
+      margin: 3vh 9.5vw 0 2.5vw;
+  
+      img {
+        transform: scale(0.66);
+      }
+  
+      li {
+        display: inline;
+        color: $FrenchGray;
+        margin: 0 30px;
+  
+        &:hover {
+          color: $Goldenrod;
+        }
+      }
+  
+      button {
+        background-color: $Goldenrod;
+        color: white;
+        padding: 9px 18px;
+        border: 1px solid $Goldenrod;
+        margin-left: 30px;
+      }
+    }
+
     section {
       display: flex;
       flex-direction: column;

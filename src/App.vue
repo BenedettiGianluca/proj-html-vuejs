@@ -1,18 +1,6 @@
 <template>
   <div id="app">
-    <nav>
-      <div>
-        <img src="./assets/project_images/avada-charity-logo.png">
-      </div>
-      <div>
-        <li>HOME</li>
-        <li>MISSION</li>
-        <li>CAUSES</li>
-        <li>JOURNAL</li>
-        <button type="button">DONATE</button>
-      </div>
-    </nav>
-    <Header />
+    <Header :img="navElements.img" :li1="navElements.li1" :li2="navElements.li2" :li3="navElements.li3" :li4="navElements.li4" :button="navElements.button"/>
     <Main />
     <Footer />
   </div>
@@ -29,6 +17,18 @@
       Header,
       Main,
       Footer
+    },
+    data(){
+      return{
+        navElements: {
+          img: 'avada-charity-logo.png',
+          li1: 'HOME',
+          li2: 'MISSION',
+          li3: 'CAUSES',
+          li4: 'JOURNAL',
+          button: 'DONATE'
+        }
+      }
     }
   }
 </script>
@@ -54,37 +54,5 @@
 
   li:hover, button:hover {
     cursor: pointer;
-  }
-
-  nav {
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 88vw;
-    margin: 3vh 9.5vw 0 2.5vw;
-
-    img {
-      transform: scale(0.66);
-    }
-
-    li {
-      display: inline;
-      color: $FrenchGray;
-      margin: 0 30px;
-
-      &:hover {
-        color: $Goldenrod;
-      }
-    }
-
-    button {
-      background-color: $Goldenrod;
-      color: white;
-      padding: 9px 18px;
-      border: 1px solid $Goldenrod;
-      margin-left: 30px;
-    }
   }
 </style>
