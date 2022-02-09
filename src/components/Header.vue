@@ -71,7 +71,6 @@
       button {
         background-color: $Goldenrod;
         color: white;
-        padding: 9px 18px;
         border: 1px solid $Goldenrod;
         margin-left: 30px;
       }
@@ -93,7 +92,6 @@
       button {
         background-color: rgba(0,0,0,0.0);
         color: $FrenchGray;
-        padding: 9px 18px;
         border: 1px solid white;
         margin: 0 5px;
 

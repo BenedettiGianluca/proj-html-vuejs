@@ -48,8 +48,16 @@
     font-size: 38px;
   }
 
+  h2 {
+    font-size: 33px;
+  }
+
   p {
     font-size: 15px;
+  }
+
+  button {
+    padding: 9px 18px;
   }
 
   li:hover, button:hover {
