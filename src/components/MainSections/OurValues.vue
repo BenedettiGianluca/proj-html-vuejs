@@ -82,7 +82,7 @@
           color: $Goldenrod;
           width: 125px;
           border-top: 3px solid $Goldenrod;
-          margin: 18px 0 30px 0;
+          margin: 15px 0 30px 0;
         }
       }
   

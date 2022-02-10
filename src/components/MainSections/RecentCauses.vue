@@ -26,12 +26,11 @@
 </script>
 
 <style lang="scss">
-   @import "../../assets/scssVariables.scss";
+  @import "../../assets/scssVariables.scss";
 
   .recentCauses {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     .recentProjects {
@@ -39,9 +38,9 @@
       flex-direction: column;
       align-items: center;
       height: 70vh;
-      padding: 100px 120px;
+      padding: 60px 120px;
 
-      .project {
+      .projects {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -54,7 +53,7 @@
           color: $Goldenrod;
           width: 125px;
           border-top: 3px solid $Goldenrod;
-          margin: 18px 0 30px 0;
+          margin: 15px 0 30px 0;
         }
     
         p {
@@ -66,11 +65,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 60px;
 
         img {
-          width: 200px;
-          height: 150px;
-          margin: 0 25px;
+          width: 280px;
+          height: 210px;
+          margin: 0 15px;
         }
       }
     }
@@ -85,7 +85,7 @@
 
       a {
         color: white;
-        font-size: 15px;
+        font-size: 13px;
         text-decoration: none;
       }
     }
