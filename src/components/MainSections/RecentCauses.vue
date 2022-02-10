@@ -80,7 +80,7 @@
       justify-content: center;
       align-items: center;
       background-color: $BurntSienna2;
-      width: 100vw;
+      width: 100%;
       height: 15vh;
 
       a {

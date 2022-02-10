@@ -44,7 +44,7 @@
       flex-direction: column;
       align-items: center;
       background-color: #f5f5f5;
-      width: 100vw;
+      width: 100%;
       height: 15vh;
 
       .fa-copyright, span {
