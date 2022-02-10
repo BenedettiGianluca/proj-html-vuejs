@@ -37,8 +37,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 70vh;
-      padding: 60px 120px;
+      height: 75vh;
+      padding: 75px 120px;
 
       .projects {
         display: flex;

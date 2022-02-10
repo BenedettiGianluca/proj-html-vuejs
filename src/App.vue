@@ -57,7 +57,7 @@
   }
 
   button {
-    padding: 9px 18px;
+    padding: 9px 20px;
   }
 
   li:hover, button:hover {

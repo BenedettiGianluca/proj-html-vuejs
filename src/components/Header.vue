@@ -91,8 +91,8 @@
 
       button {
         background-color: rgba(0,0,0,0.0);
-        color: $FrenchGray;
-        border: 1px solid white;
+        color: white;
+        border: 2px solid white;
         margin: 0 5px;
 
         &:hover {

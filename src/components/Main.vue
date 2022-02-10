@@ -4,6 +4,7 @@
     <OurValues />
     <RecentCauses />
     <LatestArticles />
+    <ChangeToday />
   </main>
 </template>
 
@@ -12,6 +13,7 @@
   import OurValues from './MainSections/OurValues.vue';
   import RecentCauses from './MainSections/RecentCauses.vue';
   import LatestArticles from './MainSections/LatestArticles.vue';
+  import ChangeToday from './MainSections/ChangeToday.vue';
 
   export default {
     name: 'Main',
@@ -19,7 +21,8 @@
       OurPeople,
       OurValues,
       RecentCauses,
-      LatestArticles
+      LatestArticles,
+      ChangeToday
     }
   }
 </script>
