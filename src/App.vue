@@ -2,7 +2,7 @@
   <div id="app">
     <Header :img="navElements.img" :li1="navElements.li1" :li2="navElements.li2" :li3="navElements.li3" :li4="navElements.li4" :button="navElements.button"/>
     <Main />
-    <Footer />
+    <Footer :iconaFooter="iconaFooter"/>
   </div>
 </template>
 
@@ -27,7 +27,8 @@
           li3: 'CAUSES',
           li4: 'JOURNAL',
           button: 'DONATE'
-        }
+        },
+        iconaFooter: 'fa-solid fa-angle-up',
       }
     }
   }
