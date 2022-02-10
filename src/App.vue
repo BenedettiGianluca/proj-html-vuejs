@@ -53,12 +53,16 @@
     font-size: 33px;
   }
 
+  h4 {
+    font-size: 19px;
+  }
+
   p {
     font-size: 14px;
   }
 
   button {
-    padding: 9px 20px;
+    padding: 8px 20px;
   }
 
   li:hover, button:hover {

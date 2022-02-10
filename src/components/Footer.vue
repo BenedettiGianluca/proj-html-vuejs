@@ -4,7 +4,7 @@
       <img src="../assets/project_images/avada-charity-sticky-header-logo.png">
     </div>
     <div class="copyrightContatti">
-      <span><i class="fa-regular fa-copyright"></i> Copyright 2012 - 2020 AVADA THEME BY THEME FUSION | ALL RIGHTS RESERVED | POWERED BY WORDPRESS</span>
+      <span><i class="fa-regular fa-copyright"></i> Copyright 2012 - 2020 AVADA THEME BY THEME FUSION &nbsp;&nbsp;|&nbsp;&nbsp; ALL RIGHTS RESERVED &nbsp;&nbsp;|&nbsp;&nbsp; POWERED BY WORDPRESS</span>
       <div class="contatti">
         <div><i class="fa-brands fa-facebook-f"></i></div>
         <div><i class="fa-brands fa-instagram"></i></div>
@@ -89,10 +89,10 @@
       color: white;
       font-size: 15px;
       text-align: center;
-      height: 30px;
-      width: 35px;
-      padding-top: 3.5px;
-      border-radius: 5px 5px 0 0;
+      height: 25px;
+      width: 33px;
+      padding-top: 2.5px;
+      border-radius: 3px 3px 0 0;
 
       &:hover {
         cursor: pointer;

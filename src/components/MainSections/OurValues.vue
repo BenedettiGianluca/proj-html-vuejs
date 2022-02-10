@@ -67,7 +67,6 @@
   
       h4 {
         color: white;
-        font-size: 21px;
       }
   
       .values {

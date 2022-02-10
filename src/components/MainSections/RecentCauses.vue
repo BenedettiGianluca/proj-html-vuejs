@@ -4,7 +4,7 @@
       <div class="projects">
         <h2>RECENT CAUSES</h2>
         <hr>
-        <p>We run projects in over 30 countries in 5 contintents</p>
+        <h4>We run projects in over 30 countries in 5 contintents</h4>
       </div>
       <div class="images">
         <img src="../../assets/project_images/avada-charity-fair-trade-featured.jpg">
@@ -56,8 +56,8 @@
           margin: 15px 0 30px 0;
         }
     
-        p {
-          color: $Tuna2;
+        h4 {
+          color: $RegentGray;
         }
       }
 

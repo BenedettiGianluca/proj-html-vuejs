@@ -3,7 +3,7 @@
     <div class="encouragingPhrase">
       <h2>LATEST ARTICLES</h2>
       <hr>
-      <p>Together we make all the difference</p>
+      <h4>Together we make all the difference</h4>
     </div>
     <div class="articles">
       <div class="featuredArticle">
@@ -60,8 +60,8 @@
         margin: 15px 0 30px 0;
       }
     
-      p {
-        color: $Tuna2;
+      h4 {
+        color: $RegentGray;
       }
     }
 
@@ -82,6 +82,7 @@
       }
         
       .featuredArticle {
+        border: 1px solid #ebeaea;
         margin-right: 30px;
 
         div:first-child , div:first-child >img {
@@ -92,7 +93,7 @@
         div:last-child {
           width: 360px;
           padding: 15px;
-          border: 1px solid $FrenchGray;
+          border-top: 1px solid #ebeaea;
         }
       }
 
